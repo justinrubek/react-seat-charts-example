@@ -1,7 +1,7 @@
 {
   "name": "react-seat-charts-example",
   "version": "0.0.0",
-  "description": "",
+  "description": "An example to show off react-seat-charts",
   "main": "index.jsx",
   "scripts": {
     "build": "webpack -p --progress --config webpack.config.js",
@@ -11,11 +11,12 @@
   },
   "author": "Justin Rubek",
   "license": "MIT",
-  "homepage": "https://github.com/justinrubek/",
+  "homepage": "https://github.com/justinrubek/react-seat-charts-example",
   "dependencies": {
     "axios": "^0.17.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react-seat-charts": "^0.1.10",
     "semantic-ui-react": "^0.77.2"
   },
   "devDependencies": {
