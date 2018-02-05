@@ -24,7 +24,7 @@ export default class App extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/js/seats.json').then(response => this.setState(
+    axios.get('https://raw.githubusercontent.com/justinrubek/react-seat-charts-example/master/js/seats.json').then(response => this.setState(
       {
         seats: response.data.seats, 
         naming: response.data.naming
