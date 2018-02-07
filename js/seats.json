@@ -1,32 +1,32 @@
 {"seats":
   [
     [
-      {"seatType": "regular", "label": "1"},
-      {"seatType": "regular", "label": "2"}, 
-      {"seatType": "spacer", "label": "7"},
-      {"seatType": "regular", "label": "3"},
-      {"seatType": "regular", "label": "4"}
+      {"seatType": "regular", "label": "1", "status": "unavailable"},
+      {"seatType": "regular", "label": "2", "status": "available"}, 
+      {"seatType": "spacer"},
+      {"seatType": "regular", "label": "3", "status": "available"},
+      {"seatType": "regular", "label": "4", "status": "available"}
     ],
     [
-      {"seatType": "regular", "label": "1"},
-      {"seatType": "accessible", "label": "2"},
+      {"seatType": "regular", "label": "1", "status": "available"},
+      {"seatType": "accessible", "label": "2", "status": "available"},
       {"seatType": "spacer"}, 
-      {"seatType": "accessible", "label": "3"},
-      {"seatType": "regular", "label": "4"}
+      {"seatType": "accessible", "label": "3", "status": "available"},
+      {"seatType": "regular", "label": "4", "status": "available"}
     ],
     [
-      {"seatType": "regular", "label": "1"},
-      {"seatType": "regular", "label": "2"},
+      {"seatType": "regular", "label": "1", "status": "unavailable"},
+      {"seatType": "regular", "label": "2", "status": "unavailable"},
       {"seatType": "spacer"},
-      {"seatType": "regular", "label": "3"},
-      {"seatType": "regular", "label": "4"}
+      {"seatType": "regular", "label": "3", "status": "available"},
+      {"seatType": "regular", "label": "4", "status": "available"}
     ],
     [
-      {"seatType": "regular", "label": "1"},
-      {"seatType": "regular", "label": "2"},
+      {"seatType": "regular", "label": "1", "status": "available"},
+      {"seatType": "regular", "label": "2", "status": "available"},
       {"seatType": "spacer"},
-      {"seatType": "regular", "label": "3"},
-      {"seatType": "regular", "label": "4"}
+      {"seatType": "regular", "label": "3", "status": "available"},
+      {"seatType": "regular", "label": "4", "status": "available"}
     ]
   ], 
     "naming": {
